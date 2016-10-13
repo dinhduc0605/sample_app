@@ -1,0 +1,20 @@
+en:
+  account_activations:
+    edit:
+      success: Account Activated!
+      danger: Invalid Activation Link
+
+  sessions:
+    create:
+      warning: Account not actived
+      danger: Invalid email/password
+
+  users:
+    create:
+      info: Please check your email for account activation
+    update:
+      success: Profile Updated
+    destroy:
+      success: User Deleted
+    logged_in_user:
+      danger: Please log in
