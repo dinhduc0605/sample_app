@@ -1,0 +1,16 @@
+en:
+  about: About
+  contact: Contact
+  news: News
+  home: Home
+  help: Help
+  login: Log in
+  logout: Log out
+  profile: Profile
+  settings: Settings
+  users_nav: Users
+  error: error
+  sample_app: Sample App
+  delete: delete
+  sign_up: Sign up
+  ror: Ruby on Rails

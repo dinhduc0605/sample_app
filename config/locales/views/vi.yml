@@ -1,0 +1,26 @@
+vi:
+  layouts:
+    footer:
+      book_des_html: Sách <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a> được viết bởi <a href="http://www.michaelhartl.com/">Michael Hartl</a>
+  sessions:
+    new:
+      sign_up_now: Sign up now
+
+  static_pages:
+    home:
+      welcome: Welcome to the Sample App
+      sign_up_now: Sign up now!
+      rails_logo: Rails log
+
+  users:
+    user:
+      sure: Are you sure
+    edit:
+      edit_user: Edit User
+      update_profile: Update Your Profile
+      save: Save changes
+      change: Change
+    index:
+      all_user: All users
+    new:
+      create_account: Create my account

@@ -18,9 +18,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = "Welcome to Sample App"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t(".info")
+      redirect_to root_url
     else
       render :new
     end
@@ -31,7 +31,7 @@ class UsersController < ApplicationController
 
   def update
     if @user.update_attributes user_params
-      flash[:success] = "Profile Updated"
+      flash[:success] = t(".success")
       redirect_to @user
     else
       render :edit
@@ -40,7 +40,7 @@ class UsersController < ApplicationController
 
   def destroy
     User.find(params[:id]).destroy
-    flash[:success] = "User Deleted"
+    flash[:success] = t(".success")
     redirect_to users_url
   end
 
@@ -57,7 +57,7 @@ class UsersController < ApplicationController
   def logged_in_user
     unless logged_in?
       store_location
-      flash[:danger] = "Please log in"
+      flash[:danger] = t(".danger")
       redirect_to login_url
     end
   end

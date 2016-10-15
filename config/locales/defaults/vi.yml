@@ -1,0 +1,16 @@
+vi:
+  about: Thông tin
+  contact: Liên hệ
+  news: Tin tức
+  home: Trang chủ
+  help: Trợ giúp
+  login: Đăng nhập
+  logout: Đăng xuất
+  profile: Thông tin cá nhân
+  settings: Cài đặt
+  users_nav: Ngưòi dùng
+  error: lỗi
+  sample_app: Sample App
+  delete: xóa
+  sign_up: Đăng ký
+  ror: Ruby on Rails
