@@ -11,6 +11,7 @@ en:
 
   static_pages:
     home:
+      feed: Micropost Feed
       welcome: Welcome to the Sample App
       sign_up_now: Sign up now!
       rails_logo: Rails log
@@ -60,3 +61,13 @@ en:
   user_mailer:
     password_reset:
       password_reset: Password Reset
+
+  shared:
+    micropost_form:
+      form_hint: Compose new micropost...
+      post: Post
+    user_info:
+      user_profile: View my profile
+  microposts:
+    micropost:
+      sure: Are you sure
