@@ -14,3 +14,9 @@ en:
   delete: delete
   sign_up: Sign up
   ror: Ruby on Rails
+
+  mailer:
+    account_activation:
+      subject: Account Activation
+    password_reset:
+      subject: Password Reset
