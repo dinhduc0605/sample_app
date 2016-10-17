@@ -18,3 +18,14 @@ en:
       success: User Deleted
     logged_in_user:
       danger: Please log in
+
+  password_resets:
+    create:
+      info: Email sent with password reset instructions
+      danger: Email not found
+    check_expiration:
+      danger: Password reset has expired
+    update:
+      password_empty: can't be empty
+      success: Password has been reset
+      confirmation: Confirmation

@@ -7,6 +7,7 @@ en:
     new:
       sign_up_now: Sign up now
       remember_me: Remember me on this computer
+      forgot_password: (forgot password)
 
   static_pages:
     home:
@@ -47,3 +48,15 @@ en:
       all_user: All users
     new:
       create_account: Create my account
+
+  password_resets:
+    new:
+      forgot_password: Forgot Password
+      submit: Submit
+    edit:
+      reset_password: Reset Password
+      update_password: Update password
+
+  user_mailer:
+    password_reset:
+      password_reset: Password Reset
