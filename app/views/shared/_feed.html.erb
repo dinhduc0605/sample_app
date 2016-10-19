@@ -1,0 +1,7 @@
+<div><%= @feed_items.count %></div>
+<% if @feed_items.any? %>
+  <ol class="microposts">
+    <%= render @feed_items %>
+  </ol>
+  <%= will_paginate @feed_items %>
+<% end %>

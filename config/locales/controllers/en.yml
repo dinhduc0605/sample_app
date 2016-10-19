@@ -29,3 +29,10 @@ en:
       password_empty: can't be empty
       success: Password has been reset
       confirmation: Confirmation
+
+  microposts:
+    create:
+      success: Micropost created!
+    destroy:
+      success: Micropost deleted
+

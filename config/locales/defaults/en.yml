@@ -14,9 +14,14 @@ en:
   delete: delete
   sign_up: Sign up
   ror: Ruby on Rails
+  micropost: Micropost
 
   mailer:
     account_activation:
       subject: Account Activation
     password_reset:
       subject: Password Reset
+
+  model:
+    micropost:
+      validate_file_size: should be less than 1MB
