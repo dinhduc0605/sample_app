@@ -49,6 +49,13 @@ en:
       all_user: All users
     new:
       create_account: Create my account
+    follow:
+      follow: Follow
+    unfollow:
+      unfollow: Unfollow
+    show_follow:
+      user_profile: View my profile
+      microposts: Microposts
 
   password_resets:
     new:
@@ -68,6 +75,10 @@ en:
       post: Post
     user_info:
       user_profile: View my profile
+    stats:
+      following: following
+      followers: followers
+
   microposts:
     micropost:
       sure: Are you sure

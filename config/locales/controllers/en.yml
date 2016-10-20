@@ -18,7 +18,10 @@ en:
       success: User Deleted
     logged_in_user:
       danger: Please log in
-
+    following:
+      title: Following
+    followers:
+      title: Followers
   password_resets:
     create:
       info: Email sent with password reset instructions
